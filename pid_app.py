@@ -203,7 +203,7 @@ def _fmt_metric(x, fmt=".3f"):
 # Session-state initialisation
 # ─────────────────────────────────────────────
 DEFAULTS = dict(m=1.0, b=0.5, k=1.0, zeta=0.25, omega_n=1.0,
-                kp=1.0, ki=0.0, kd=0.1, disturbance=0.0)
+                kp=0.0, ki=0.0, kd=0.0, disturbance=0.0)
 
 for key, val in DEFAULTS.items():
     if key not in st.session_state:
