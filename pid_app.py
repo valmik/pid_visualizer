@@ -313,7 +313,7 @@ def _nb_sync(key, on_change_fn):
 # Title
 # ─────────────────────────────────────────────
 st.markdown("## 2nd-Order System Explorer")
-st.markdown("<p style='color:#5a6080;font-size:0.85rem;margin-top:-0.5rem'>Closed-loop PID response of a mass-spring-damper</p>", unsafe_allow_html=True)
+st.markdown("<p style='color:#5a6080;font-size:0.85rem;margin-top:-0.5rem'>Closed-loop PID response of a mass-spring-damper \\ By Valmik Prabhu (and Claude)</p>", unsafe_allow_html=True)
 st.markdown('<hr class="section-divider">', unsafe_allow_html=True)
 
 # ─────────────────────────────────────────────
