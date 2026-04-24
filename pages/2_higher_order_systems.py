@@ -505,7 +505,8 @@ def _nb_sync_ho(key):
 st.markdown("## Higher-Order PID Explorer")
 st.markdown(
     "<p style='color:#5a6080;font-size:0.85rem;margin-top:-0.5rem'>"
-    "Compare PID response of an n-th order system against its dominant 2nd-order approximation \\ By Valmik Prabhu (and Claude)</p>",
+    "Compare PID response of an n-th order system against its dominant 2nd-order approximation<br>"
+    "By Valmik Prabhu (and Claude)</p>",
     unsafe_allow_html=True,
 )
 st.markdown('<hr class="section-divider">', unsafe_allow_html=True)
